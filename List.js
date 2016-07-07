@@ -1,8 +1,8 @@
 
 export default class List {
-  constructor(items){
-    this.items = items;
-  }
+	constructor(items){
+		this.items = items;
+	}
 
 	min(){
 		return Math.min.apply(null, this.items);
@@ -22,5 +22,5 @@ export default class List {
 			if (this[l] != null) result += parseFloat(this[l]);
 		}
 		return result;
-  }
+	}
 }
