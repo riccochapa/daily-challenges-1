@@ -1,6 +1,11 @@
 {
-    "extends": "eslint-config-airbnb",
+    "extends": "airbnb",
     "plugins": [
-        "react"
-    ]
+        "react",
+        "jasmine"
+    ],
+    "env": {
+      "jasmine": true,
+      "jest": true
+    }
 }

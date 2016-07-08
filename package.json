@@ -1,27 +1,25 @@
 {
-  "name": "airbnb-js-style",
+  "name": "daily-challenges",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ibolmo/airbnb-js-lint.git"
+    "test": "jest --coverage"
   },
   "author": "Olmo Maldonado <ibolmo@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ibolmo/airbnb-js-lint/issues"
-  },
-  "homepage": "https://github.com/ibolmo/airbnb-js-lint#readme",
   "devDependencies": {
+    "babel-cli": "^6.10.1",
     "babel-eslint": "^6.1.0",
+    "babel-jest": "^13.2.2",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
     "eslint": "^3.0.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jasmine": "^1.8.1",
     "eslint-plugin-jsx-a11y": "^1.5.5",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^5.2.2",
+    "jest-cli": "^13.2.3"
   }
 }
