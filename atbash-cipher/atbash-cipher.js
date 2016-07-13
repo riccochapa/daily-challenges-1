@@ -13,8 +13,12 @@ function encode(string) {
       if (letter === alphaSplit[j]) {
         conversion.push(cipherSplit[j]);
       }
+      const result = conversion;
+      console.log(result);
     }
   }
 }
 
+encode('hello');
+encode('svool');
 module.exports = { encode };
