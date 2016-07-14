@@ -25,6 +25,4 @@ function encode(string) {
   return result;
 }
 
-encode('no');
-encode('yes');
 module.exports = { encode };
